@@ -1,6 +1,6 @@
 using System;
 
-namespace Timesheet.Web.Models
+namespace TimesheetApp.Web.Models
 {
     public class ErrorViewModel
     {
