@@ -56,7 +56,10 @@ namespace TimesheetApp.Web.Models
             );
 
             builder.Entity<Timesheet>().HasData(
-                new Timesheet { TimesheetId = 1, MinutesWorked = 80, StaffId = 1, ClientId = 2, LocationId = 4 }
+                new Timesheet { TimesheetId = 1, MinutesWorked = 80, StaffId = 1, ClientId = 2, LocationId = 4 },
+                 new Timesheet { TimesheetId = 2, MinutesWorked = 20, StaffId = 2, ClientId = 1, LocationId = 5 },
+                  new Timesheet { TimesheetId =3, MinutesWorked = 40, StaffId = 3, ClientId = 1, LocationId = 2 },
+                   new Timesheet { TimesheetId = 4, MinutesWorked = 76, StaffId = 1, ClientId = 2, LocationId = 1 }
             );
         }
     }
